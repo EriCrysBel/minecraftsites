@@ -54,6 +54,8 @@ main .primera {
 
 .carrusel{
   background-color: whitesmoke;
+  margin:0;
+  padding: 0;
 }
 .textocarrusel{
   background-color: aliceblue;
@@ -73,10 +75,10 @@ main .primera {
   background-size: cover;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
   .carousel-item {
     width: 50%;
-    left: 350px;
+    left: 400px;
   }
 }
 @media (max-width: 600px) {
@@ -84,7 +86,7 @@ main .primera {
     width: 70%;
     top: 10px;
     left: 94px;
-    margin-bottom: 0%;
+    
   }
 }
 @media (max-width: 600px) {
@@ -112,65 +114,12 @@ main .primera {
     right: 150px;
   }
 }
+
 .social {
   list-style: none;
   background-color: transparent;
  }
 
-/* .image-text-container {
-  display: flex; 
-  align-items: center; 
-  justify-content: space-between; 
-}
-
-      .left-image {
-          flex: 1; 
-          margin-left: 400px; 
-      }
-
-      .right-image {
-          flex: 1; 
-          
-      }
-      .text-left {
-          flex: 1;
-          margin-left: 00px;
-          
-      }
-      .text-right {
-        flex: 1;
-        margin-left: 50px; 
+    .parrafo{
+      font-weight: lighter;
     }
-      .enun{
-        font-family: Impact, sans-serif;
-        font-size:xx-large;
-      } */
-      .image-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    
-    .image-with-text {
-        display: flex;
-        align-items: center;
-        margin: 20px 0;
-    }
-    
-    .image-with-text img {
-        max-width: 100%;
-        height: auto;
-    }
-    
-    .text-left {
-        text-align: left;
-        margin-left: 20px;
-    }
-    
-    .text-right {
-        text-align: right;
-        margin-right: 20px;
-    }
-    
